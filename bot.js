@@ -32,7 +32,6 @@ bot1.on('ready', () => {
  bot1.on('message', message => {
 
     
-if (!ID.includes(message.author.id)) return;
 
   if (message.content === 'daily') {
 
@@ -45,7 +44,6 @@ message.channel.send('#daily')
 
  bot1.on('message', message => {
   
-if (!ID.includes(message.author.id)) return;
 
   if (message.content === 'do rep') {
 
@@ -71,9 +69,7 @@ bot1.on('message', message => {
 
 bot1.on('message', message => {
 
-    
-if (!ID.includes(message.author.id)) return;
-
+ 
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -121,7 +117,6 @@ const bot2 = new Discord.Client();
 
  bot2.on('message', message => {
   
-    if (!ID.includes(message.author.id)) return;
 
   if (message.content === 'daily') {
 
@@ -143,7 +138,6 @@ message.channel.send('#rep <@474573718967025665>')
 
 bot2.on('message', message => {
 
-    if (!ID.includes(message.author.id)) return;
 
 if (message.content === '!spam') {
       let count = 0;
@@ -200,7 +194,6 @@ const bot3 = new Discord.Client();
 ///////////////////////////////////////////
  bot3.on('message', message => {
 
-    if (!ID.includes(message.author.id)) return;
   
   if (message.content === 'daily') {
 
@@ -222,7 +215,6 @@ message.channel.send('#rep <@474573718967025665>')
 
 bot3.on('message', message => {
 
-    if (!ID.includes(message.author.id)) return;
 
 if (message.content === '!spam') {
       let count = 0;
